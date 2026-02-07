@@ -57,6 +57,7 @@ object Main extends App {
   Transacion(4, 321, -200, "desconocido")
   )
 
+
   //Ejemplo fase 3:
   println("\nFase 3: Procesamiento de Lote de Transacciones")
   val resultado = Transacion.procesarLote(
